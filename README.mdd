@@ -1,0 +1,21 @@
+# File Renamer Tool
+A simple Python project that automatically renames all files inside a folder. Each file keeps its original extension, and the program adds numbering (file1, file2...).
+
+
+# Features
+Renames all files in a selected folder
+Keeps file extensions 
+Handles wrong folder paths
+Prevents overwriting if a file with the same name already exists
+Easy to use just enter the folder path
+
+
+# Tools Used
+Python (built in os module)
+
+
+# How It Works
+1. User enters the folder path
+2. Program collects all files inside that folder
+3. Each file is renamed with numbering 
+4. Errors are handled so the program does not stop suddenly
